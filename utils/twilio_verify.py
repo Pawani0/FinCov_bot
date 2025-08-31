@@ -19,7 +19,7 @@ def send_verification_code(phone_number: str):
             phone_number = "+" + phone_number
         else:
             phone_number = "+91" + phone_number
-            
+
     verification = client.verify.v2.services(verify_sid).verifications.create(
         to=phone_number,
         channel="sms"
@@ -27,6 +27,12 @@ def send_verification_code(phone_number: str):
     return verification.status
 
 def check_verification_code(phone_number: str, code: str):
+    phone_number = phone_number.replace(" ", "").replace("-", "")
+    if not phone_number.startswith("+"):
+        if phone_number.startswith("91"):
+            phone_number = "+" + phone_number
+        else:
+            phone_number = "+91" + phone_number
     verification_check = client.verify.v2.services(verify_sid).verification_checks.create(
         to=phone_number,
         code=code
