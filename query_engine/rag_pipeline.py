@@ -1,9 +1,4 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
-import langchain
-from langchain.cache import InMemoryCache
-
-# Enable in-memory caching for the LLM
-langchain.llm_cache = InMemoryCache()
+from langchain_groq import ChatGroq
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
@@ -18,14 +13,10 @@ from typing import Dict, List
 
 # Load environment variables
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-# Initialize Gemini LLM
-llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash-lite",
-    temperature=0.5,
-    google_api_key=GOOGLE_API_KEY
-)
+# Initialize Groq LLM
+llm = ChatGroq(api_key=GROQ_API_KEY, model="llama-3.1-8b-instant", temperature=0.5)
 
 # Store session history per SID
 session_store: Dict[str, BaseChatMessageHistory] = {}
@@ -115,9 +106,7 @@ Rules:
   investments, or general banking for FinCove."
 - Never use Markdown formatting (bold, italic, code). Plain text only.
 - Keep responses concise, clear, and professional.
-- Use the consumer profile data to provide personalized assistance when appropriate.
-- After getting response according to data dont ask for any other information.
- #REMEMBER: IF U HAVE "user_data" THEN USE IT NATURALLY TO PERSONALIZE RESPONSES. DONT SAY " I am sorry, I cannot directly show you..."
+
 Context from knowledge base:
 {context}
 

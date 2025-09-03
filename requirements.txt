@@ -6,12 +6,9 @@ langchain
 langchain_community
 langchain_huggingface
 langchain_core
-langchain_google_genai
-google-generativeai
+langchain_groq
 sentence-transformers
 faiss-cpu
 dotenv
 pymongo
 twilio
-websockets
-pytest
