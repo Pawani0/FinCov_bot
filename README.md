@@ -63,15 +63,23 @@ FinCov-Backend
 
 ### 🔐 Update .env with your keys: 
 ```
-# Gorq API Key
-GROQ_API_KEY = "YOUR_API_KEY"
+# Google Gemini API Key (required)
+GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
 
-# Twilio API IDs
+# Text-To-Speech Backend (optional)
+# edge (default) | unmute
+TTS_BACKEND="edge"
+
+# UNMUTE (Kyutai) WebSocket server URL (required if TTS_BACKEND=unmute)
+# Example: ws://localhost:7331/tts
+UNMUTE_WS_URL="ws://localhost:7331/tts"
+
+# Twilio API IDs (for OTP verification)
 TWILIO_ACCOUNT_SID="YOUR_ACCOUNT_SID"
 TWILIO_AUTH_TOKEN="YOUR_AUTH_TOKEN"
 TWILIO_VERIFY_SID="YOUR_VERIFY_SID"
 
-Note: You are required to create this .env file. Add your Groq API Key and Twilio Keys as mentioned above.
+Note: Create this .env file and add your keys above. Set TTS_BACKEND to "unmute" only if you have an UNMUTE-compatible server running.
 ```
 # **FinCov-Ai_modules**  
 - ## Domain Classifier Engine
@@ -113,6 +121,21 @@ Note: You are required to create this .env file. Add your Groq API Key and Twili
            `vectorstores[domain]` is the vectorstore of particular domain.
      
      Note: Handle domain and intent correctly as they can return `None`.
+
+- ## Text-To-Speech (TTS)
+  The server supports streaming audio responses over WebSocket using a pluggable TTS backend.
+  - Default backend: `edge_tts`
+  - Low-latency backend: `UNMUTE (Kyutai)` via WebSocket
+
+  #### Configure
+  1. Set `TTS_BACKEND` in `.env`:
+     - `edge` (default)
+     - `unmute`
+  2. If using `unmute`, set `UNMUTE_WS_URL` (e.g., `ws://localhost:7331/tts`).
+
+  #### Notes
+  - `edge_tts` streams audio after receiving full text.
+  - `UNMUTE` aims for near real-time streaming as text is generated. You must run an UNMUTE-compatible WebSocket server separately.
 
 - ## MongoDB utility
   #### For saving the conversation on database.
