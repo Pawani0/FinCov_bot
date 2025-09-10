@@ -10,9 +10,6 @@ from utils.user_data import extract_user_data
 from utils.sessions import active_session, create_session, delete_session
 
 
-with open("query_engine/intents.json", "r", encoding="utf-8") as file:
-    all_intents = json.load(file)
-
 app = FastAPI()
 app.include_router(auth_router)
 
@@ -89,7 +86,7 @@ async def websocket_endpoint(websocket: WebSocket, sid=Query(None)):
                     print(f"[user_data]: {session_info['user_data']}")
                     response = ask(session_id, query, vectorstores[domain], session_info["user_data"])
                 else:
-                    response = ask(session_id, query, vectorstores[domain])
+                    response = ask(session_id, query, vectorstores[domain], session_info["user_data"])
 
             print(f"[Maya]: {response}")
 
