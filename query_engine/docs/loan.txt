@@ -2,57 +2,57 @@
 
 FinCove Pvt. Ltd. is a cutting-edge digital banking and financial services company. It focuses on delivering secure, inclusive, and innovative financial solutions via smart technology.
 
-**Mission:** Empower individuals and businesses through seamless, secure digital banking experiences.
+  Mission:   Empower individuals and businesses through seamless, secure digital banking experiences.
 
-**Goals:**
+  Goals:  
 
-* Lead in digital banking and financial advisory services
-* Promote financial literacy and inclusion
-* Provide secure, data-driven financial products
+  Lead in digital banking and financial advisory services
+  Promote financial literacy and inclusion
+  Provide secure, data-driven financial products
 
-**Target Users:**
+  Target Users:  
 
-* Urban and rural individuals seeking secure, tech-enabled banking
-* MSMEs needing banking and advisory solutions
+  Urban and rural individuals seeking secure, tech-enabled banking
+  MSMEs needing banking and advisory solutions
 
 
 ###  Lending Services #Loans #Credit #Finance
 
 FinCove Pvt. Ltd. offers a diverse range of loan products tailored to the financial needs of individuals, students, professionals, and businesses. These include secured and unsecured loans with flexible repayment options, competitive interest rates, and digital application journeys.
 
-*Education Loan
+ Education Loan
 | Feature              | Details                                    |
 | -------------------- | ------------------------------------------ |
-| **Loan Amount**      | Up to ₹25,00,000                           |
-| **Interest Rate**    | 8.5% – 10.5% p.a.                          |
-| **Loan Tenure**      | Up to 10 years                             |
-| **Moratorium**       | Course duration + 12 months                |
-| **Coverage**         | Tuition, hostel, books, travel (if abroad) |
-| **Security**         | Collateral may be needed for loans > ₹7.5L |
-| **Eligible Courses** | UG/PG courses in India or abroad           |
+|   Loan Amount        | Up to ₹25,00,000                           |
+|   Interest Rate      | 8.5% – 10.5% p.a.                          |
+|   Loan Tenure        | Up to 10 years                             |
+|   Moratorium         | Course duration + 12 months                |
+|   Coverage           | Tuition, hostel, books, travel (if abroad) |
+|   Security           | Collateral may be needed for loans > ₹7.5L |
+|   Eligible Courses   | UG/PG courses in India or abroad           |
 
  Co-applicant (usually parent/guardian) is mandatory.
  Interest subsidy under Central Govt. schemes available for eligible students.
 
-* Home Loan
+  Home Loan
 | Feature           | Details                                             |
 | ----------------- | --------------------------------------------------- |
-| **Interest Rate** | 8.3% – 9.2% p.a. (floating)                         |
-| **Loan Tenure**   | Up to 30 years                                      |
-| **Loan Amount**   | ₹2L – ₹5Cr (based on eligibility)                   |
-| **LTV Ratio**     | Up to 90% of property value                         |
-| **Tax Benefits**  | Under Sections 24(b) (interest) and 80C (principal) |
+|   Interest Rate   | 8.3% – 9.2% p.a. (floating)                         |
+|   Loan Tenure     | Up to 30 years                                      |
+|   Loan Amount     | ₹2L – ₹5Cr (based on eligibility)                   |
+|   LTV Ratio       | Up to 90% of property value                         |
+|   Tax Benefits    | Under Sections 24(b) (interest) and 80C (principal) |
 
 Includes options for home purchase, construction, plot + construction, and home renovation.
 
-*Personal Loan
+ Personal Loan
 | Feature                 | Details                              |
 | ----------------------- | ------------------------------------ |
-| **Loan Amount**         | ₹50,000 – ₹25,00,000                 |
-| **Tenure**              | 1 to 5 years                         |
-| **Collateral**          | Not required (unsecured loan)        |
-| **Processing Time**     | Within 48 hours                      |
-| **Pre-Approved Offers** | Instant disbursal through app/portal |
+|   Loan Amount           | ₹50,000 – ₹25,00,000                 |
+|   Tenure                | 1 to 5 years                         |
+|   Collateral            | Not required (unsecured loan)        |
+|   Processing Time       | Within 48 hours                      |
+|   Pre-Approved Offers   | Instant disbursal through app/portal |
 
 Ideal for travel, medical expenses, weddings, or urgent needs
 No hidden charges; transparent fee breakdown during application
@@ -164,7 +164,7 @@ Nominal and transparent. Charges vary by loan type and are shown upfront.
 
 Q5: What happens if I default on EMI?
 Late payment fees may apply. It can also affect your credit score.
-*Loan Application Process (All Types) 
+ Loan Application Process (All Types) 
  Select Loan Type – Choose via app, portal, or branch
  Upload Documents – PAN, Aadhaar, income proof (salary slips/ITR)
  Assessment – Credit score, income, and eligibility check
@@ -173,7 +173,7 @@ Late payment fees may apply. It can also affect your credit score.
 
 Use the FinCove Loan Tracker in the app to view live status, EMIs, and disbursement details.
 
-*FAQs – Lending Services
+ FAQs – Lending Services
 Q: Can I prepay a personal loan early?
 A: Yes. After 6 months, you can prepay without any penalty.
 

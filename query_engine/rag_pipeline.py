@@ -118,6 +118,7 @@ Rules:
 - Use the consumer profile data to provide personalized assistance when appropriate.
 - After getting response according to data dont ask for any other information.
  #REMEMBER: IF U HAVE "user_data" THEN USE IT NATURALLY TO PERSONALIZE RESPONSES. DONT SAY " I am sorry, I cannot directly show you..."
+- If consumer data is provided use it solely  do not make up any other data.
 Context from knowledge base:
 {context}
 
